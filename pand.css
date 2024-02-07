@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: raleway_f, sans-serif;
+}
+
+@font-face {
+    font-family: raleway_f;
+    src: url(/fonts/raleway-regular.woff2);
+}
+
+@font-face {
+    font-family: raleway_f;
+    src: url(/fonts/raleway-black.woff2);
+    font-weight: 900;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('https://klau.club/uploads/posts/2023-06/1686197787_klau-club-p-bambukovii-les-6.jpg');
+    perspective: 1000px;
+}
+
+.dark {
+    width: 100%;
+    height: 100%;
+    background-color:#1010109e;
+}
+
+
+
+.box {
+    width: 30%;
+    background-color: rgba(0, 0, 0, 0.386);
+    height: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 12px;
+}
+
+.box > h1 {
+    letter-spacing: 3px;
+    font-size: 30px;
+    font-weight: 300;
+    color: #70FFE5;
+}
+
+.box > p {
+    margin-top: 60px;
+    letter-spacing: 2px;
+    font-size: 18px;
+    color: white;
+}
+
+.iframe {
+    margin-top: 50px;
+    width: 100%;
+    height: 240px;
+}
+
+.iframe > iframe {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.page {
+    margin-top: 30px;
+}
+
+.page > a {
+    background-color: #2fb49c;
+    padding:5px 20px;
+    border-radius: 5%;
+    text-decoration: none;
+    color: white;
+}

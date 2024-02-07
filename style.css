@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-image: url('https://wallpapercave.com/wp/wp2287237.jpg');
+    background-size: cover;
+}
+
+.dark {
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.403);
+}
+
+.box {
+    width: 43%;
+    height: 100%;
+    background-color: hsla(0, 0%, 0%, 0.388);
+}
+
+.info {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.panda {
+    padding-top: 120px;
+}
+
+.panda > h2 {
+    letter-spacing: 4px;
+    font-weight: 100;
+    color: #70FFE5;
+}
+
+.panda > h1 {
+    letter-spacing: 3px;
+    margin-top: 20px;
+    font-weight: 500;
+    line-height: 50px;
+    width: 100%;
+    color: white;
+    font-size: 56px
+}
+
+.panda2 {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.panda2 > h1 {
+    color: #70FFE5;
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-weight: 300;
+}
+
+.panda2 > p {
+    color: white;
+    letter-spacing: 2px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-top: 13px;
+}
+
+.donate {
+    margin-top: 30px;
+}
+
+.panda2 > .donate > a {
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px ;
+    background-color: #45cdb4;
+    font-weight: 200;
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+.boxes {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box2 {
+    width: 40%;
+    height: 100%;
+    background-color:  hsla(0, 0%, 0%, 0.388);
+}
+
+.panda2 > img {
+    border-radius: 5%;
+    margin-top: 20px;
+    width: 80%;
+}
+
